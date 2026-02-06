@@ -1,0 +1,58 @@
+/* ============================================ */
+/* FIX: Responsive Card Text in Dark Mode */
+/* ============================================ */
+
+/* Fix "Cocok Untuk" text visibility in dark mode cards */
+.dark-mode .comparison-item .text-muted {
+    color: #b0b0b0 !important;
+    font-weight: 500 !important;
+}
+
+.dark-mode .comparison-item .text-muted.small {
+    color: #a8a8a8 !important;
+    font-weight: 500 !important;
+}
+
+.dark-mode .comparison-card .text-muted {
+    color: #b0b0b0 !important;
+    font-weight: 500 !important;
+}
+
+/* Extra contrast for mobile/tablet responsive view */
+@media (max-width: 1024px) {
+    .dark-mode .comparison-item .text-muted {
+        color: #c0c0c0 !important;
+        font-weight: 600 !important;
+    }
+    
+    .dark-mode .comparison-item .text-muted.small {
+        color: #b8b8b8 !important;
+        font-weight: 600 !important;
+    }
+    
+    .dark-mode .comparison-card .text-muted {
+        color: #c0c0c0 !important;
+        font-weight: 600 !important;
+    }
+}
+
+/* Ensure all comparison item text is readable */
+.dark-mode .comparison-item .label {
+    color: #eba832 !important;
+    font-weight: 700 !important;
+}
+
+.dark-mode .comparison-card .card-header-title {
+    color: #eba832 !important;
+    font-weight: 700 !important;
+}
+
+/* Better text contrast on mobile */
+@media (max-width: 576px) {
+    .dark-mode .comparison-item .text-muted,
+    .dark-mode .comparison-item .text-muted.small,
+    .dark-mode .comparison-card .text-muted {
+        color: #d0d0d0 !important;
+        font-weight: 600 !important;
+    }
+}

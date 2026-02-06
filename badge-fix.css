@@ -1,0 +1,138 @@
+/* ============================================ */
+/* COMPREHENSIVE BADGE & COLOR FIX - OVERRIDE */
+/* ============================================ */
+
+/* Light mode - ensure all badges are visible */
+.comparison-table .badge,
+.comparison-item .badge,
+.comparison-card .badge {
+    display: inline-block !important;
+    border-radius: 4px !important;
+    font-weight: 700 !important;
+    padding: 6px 12px !important;
+    font-size: 0.8rem !important;
+}
+
+/* Gold badges */
+.comparison-table .badge.bg-gold,
+.comparison-item .badge.bg-gold,
+.comparison-card .badge.bg-gold {
+    background-color: #eba832 !important;
+    color: #000000 !important;
+    border: none !important;
+}
+
+/* Success badges (Green) */
+.comparison-table .badge.bg-success,
+.comparison-item .badge.bg-success,
+.comparison-card .badge.bg-success {
+    background-color: #22c55e !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+/* Secondary badges (Gray) */
+.comparison-table .badge.bg-secondary,
+.comparison-item .badge.bg-secondary,
+.comparison-card .badge.bg-secondary {
+    background-color: #6b7280 !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+/* Danger badges (Red) */
+.comparison-table .badge.bg-danger,
+.comparison-item .badge.bg-danger,
+.comparison-card .badge.bg-danger {
+    background-color: #ef4444 !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+/* ============================================ */
+/* DARK MODE BADGE OVERRIDES */
+/* ============================================ */
+
+.dark-mode .comparison-table .badge,
+.dark-mode .comparison-item .badge,
+.dark-mode .comparison-card .badge {
+    display: inline-block !important;
+    border-radius: 4px !important;
+    font-weight: 700 !important;
+}
+
+.dark-mode .comparison-table .badge.bg-gold,
+.dark-mode .comparison-item .badge.bg-gold,
+.dark-mode .comparison-card .badge.bg-gold {
+    background-color: #eba832 !important;
+    color: #000000 !important;
+    border: none !important;
+}
+
+.dark-mode .comparison-table .badge.bg-success,
+.dark-mode .comparison-item .badge.bg-success,
+.dark-mode .comparison-card .badge.bg-success {
+    background-color: #10b981 !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+.dark-mode .comparison-table .badge.bg-secondary,
+.dark-mode .comparison-item .badge.bg-secondary,
+.dark-mode .comparison-card .badge.bg-secondary {
+    background-color: #6b7280 !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+.dark-mode .comparison-table .badge.bg-danger,
+.dark-mode .comparison-item .badge.bg-danger,
+.dark-mode .comparison-card .badge.bg-danger {
+    background-color: #ef4444 !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+/* ============================================ */
+/* DARK MODE CARD TEXT FIXES */
+/* ============================================ */
+
+.dark-mode .comparison-card {
+    background-color: #1a1f2e !important;
+    border: 2px solid #eba832 !important;
+    color: #e8e8e8 !important;
+}
+
+.dark-mode .comparison-card .card-header-title {
+    color: #eba832 !important;
+    border-bottom-color: #eba832 !important;
+}
+
+.dark-mode .comparison-item {
+    border-bottom-color: rgba(235, 168, 50, 0.2) !important;
+}
+
+.dark-mode .comparison-item .label {
+    color: #eba832 !important;
+    font-weight: 700 !important;
+}
+
+/* Fix table styling in dark mode */
+.dark-mode .comparison-table {
+    background-color: #1a1f2e !important;
+    border-color: #2a2f3e !important;
+}
+
+.dark-mode .comparison-table thead th {
+    color: #eba832 !important;
+}
+
+.dark-mode .comparison-table tbody td {
+    color: #e8e8e8 !important;
+    background-color: #1a1f2e !important;
+}
+
+.dark-mode .comparison-table tbody td:first-child {
+    color: #eba832 !important;
+    background-color: rgba(235, 168, 50, 0.1) !important;
+}
