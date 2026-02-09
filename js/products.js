@@ -12,7 +12,7 @@ const ProductsModule = (() => {
         description: "Grinder kopi elektrik compact dengan desain minimalis dan burr presisi. Cocok untuk home barista yang butuh konsistensi gilingan tanpa makan tempat.",
         price: "Rp 2.900.000",
         category: "Electric",
-        image: "../assets/img/IndeljensAzzuleMini.png",
+        image: "assets/img/IndeljensAzzuleMini.png",
         specs: [
             "Tipe: Electric Burr Grinder",
             "Warna: Hitam / Putih",
@@ -26,7 +26,7 @@ const ProductsModule = (() => {
         description: "Grinder elektrik kelas menengah dengan performa stabil dan burr presisi untuk kebutuhan espresso hingga manual brew.",
         price: "Rp 6.550.000",
         category: "Electric",
-        image: "../assets/img/IndeljensAzzule.png",
+        image: "assets/img/IndeljensAzzule.png",
         specs: [
             "Tipe: Electric Burr Grinder",
             "Burr: Flat Burr",
@@ -40,7 +40,7 @@ const ProductsModule = (() => {
         description: "Grinder elektrik bertenaga dengan burr presisi untuk kebutuhan kafe kecil hingga menengah.",
         price: "Rp 7.000.000",
         category: "Professional",
-        image: "../assets/img/IndeljensAlto.png",
+        image: "assets/img/IndeljensAlto.png",
         specs: [
             "Tipe: Commercial Grinder",
             "Burr: Flat Burr",
@@ -54,7 +54,7 @@ const ProductsModule = (() => {
         description: "Grinder elektrik profesional dengan motor bertenaga dan konsistensi tinggi untuk penggunaan harian di kafe.",
         price: "Rp 7.990.000",
         category: "Professional",
-        image: "../assets/img/IndeljensVeloce.png",
+        image: "assets/img/IndeljensVeloce.png",
         specs: [
             "Tipe: Commercial Grinder",
             "Burr: Flat Burr",
@@ -68,7 +68,7 @@ const ProductsModule = (() => {
         description: "Grinder espresso profesional dengan reputasi legendaris, dikenal akan daya tahan dan konsistensi hasil gilingannya.",
         price: "Rp 19.800.000",
         category: "Professional",
-        image: "../assets/img/JollyVUp.png",
+        image: "assets/img/JollyVUp.png",
         specs: [
             "Tipe: Commercial Burr Grinder",
             "Burr: Flat Burr Baja",
@@ -82,7 +82,7 @@ const ProductsModule = (() => {
         description: "Grinder profesional Mazzer dengan presisi tinggi dan durabilitas kelas kafe.",
         price: "Rp 21.800.000",
         category: "Professional",
-        image: "../assets/img/JollyVPro.png",
+        image: "assets/img/JollyVPro.png",
         specs: [
             "Tipe: Commercial Burr Grinder",
             "Burr: Flat Burr Baja",
@@ -96,7 +96,7 @@ const ProductsModule = (() => {
         description: "Single dose grinder premium dari Mazzer dengan fokus presisi dan minim retention.",
         price: "Rp 19.700.000",
         category: "Professional",
-        image: "../assets/img/philos.png",
+        image: "assets/img/philos.png",
         specs: [
             "Tipe: Single Dose Grinder",
             "Burr: Flat Burr Presisi",
@@ -110,7 +110,7 @@ const ProductsModule = (() => {
         description: "Grinder modern dengan performa stabil dan harga kompetitif.",
         price: "Rp 4.699.000",
         category: "Electric",
-        image: "../assets/img/manussoEvo.png",
+        image: "assets/img/manussoEvo.png",
         specs: [
             "Tipe: Manual Grinder",
             "Pengaturan Gilingan: Multi-level",
@@ -124,7 +124,7 @@ const ProductsModule = (() => {
         description: "Grinder elektrik ekonomis dengan desain minimalis.",
         price: "Rp 3.499.000",
         category: "Electric",
-        image: "../assets/img/manussoEvo.png",
+        image: "assets/img/manussoEvo.png",
         specs: [
             "Tipe: Manual Grinder",
             "Desain: Minimalis",
@@ -138,7 +138,7 @@ const ProductsModule = (() => {
         description: "Grinder elektrik ringkas dengan burr presisi untuk pemula.",
         price: "Rp 2.090.000",
         category: "Electric",
-        image: "../assets/img/k021.png",
+        image: "assets/img/k021.png",
         specs: [
             "Tipe: Electric Burr Grinder",
             "Ukuran: Compact",
@@ -152,7 +152,7 @@ const ProductsModule = (() => {
         description: "Grinder elektrik entry level dengan pengoperasian sederhana.",
         price: "Rp 1.400.000",
         category: "Electric",
-        image: "../assets/img/k019.png",
+        image: "assets/img/k019.png",
         specs: [
             "Tipe: Electric Grinder",
             "Ukuran: Compact",
@@ -166,7 +166,7 @@ const ProductsModule = (() => {
         description: "Grinder elektrik populer untuk kafe kecil.",
         price: "Rp 1.200.000",
         category: "Electric",
-        image: "../assets/img/k500n.png",
+        image: "assets/img/k500n.png",
         specs: [
             "Tipe: Electric Grinder",
             "Motor: Tahan Lama",
@@ -180,7 +180,7 @@ const ProductsModule = (() => {
         description: "Grinder elektrik modern untuk home dan UMKM.",
         price: "Rp 2.300.000",
         category: "Electric",
-        image: "../assets/img/KX016.png",
+        image: "assets/img/KX016.png",
         specs: [
             "Tipe: Electric Burr Grinder",
             "Desain: Modern",
@@ -194,7 +194,7 @@ const ProductsModule = (() => {
         description: "Grinder elektrik ekonomis untuk espresso dan kafe kecil.",
         price: "Rp 531.200",
         category: "Electric",
-        image: "../assets/img/600n.png",
+        image: "assets/img/600n.png",
         specs: [
             "Tipe: Electric Grinder",
             "Model: 600N",
@@ -208,7 +208,7 @@ const ProductsModule = (() => {
         description: "Grinder elektrik performa tinggi untuk espresso bar.",
         price: "Rp 9.390.000",
         category: "Professional",
-        image: "../assets/img/E75T.png",
+        image: "assets/img/E75T.png",
         specs: [
             "Tipe: Commercial Grinder",
             "Burr: Flat Burr",
@@ -222,7 +222,7 @@ const ProductsModule = (() => {
         description: "Grinder elektrik serbaguna dengan ukuran ringkas.",
         price: "Rp 7.375.000",
         category: "Electric",
-        image: "../assets/img/E65T.png",
+        image: "assets/img/E65T.png",
         specs: [
             "Tipe: Electric Burr Grinder",
             "Desain: Compact",
@@ -236,7 +236,7 @@ const ProductsModule = (() => {
         description: "Grinder elektrik Hario dengan desain minimalis Jepang.",
         price: "Rp 3.990.000",
         category: "Electric",
-        image: "../assets/img/Hario8B.png",
+        image: "assets/img/Hario8B.png",
         specs: [
             "Tipe: Electric Grinder",
             "Desain: Minimalis",
@@ -250,7 +250,7 @@ const ProductsModule = (() => {
         description: "Grinder elektrik profesional Romola.",
         price: "Rp 7.000.000",
         category: "Professional",
-        image: "../assets/img/G9002.png",
+        image: "assets/img/G9002.png",
         specs: [
             "Tipe: Commercial Grinder",
             "Burr: Flat Burr",
@@ -264,7 +264,7 @@ const ProductsModule = (() => {
         description: "Grinder elektrik ekonomis untuk UMKM.",
         price: "Rp 4.300.000",
         category: "Electric",
-        image: "../assets/img/G9012.png",
+        image: "assets/img/G9012.png",
         specs: [
             "Tipe: Electric Grinder",
             "Desain: Simple",
@@ -278,7 +278,7 @@ const ProductsModule = (() => {
         description: "Grinder elektrik kelas menengah untuk espresso.",
         price: "Rp 6.600.000",
         category: "Electric",
-        image: "../assets/img/M70.png",
+        image: "assets/img/M70.png",
         specs: [
             "Tipe: Electric Burr Grinder",
             "Burr: Large Burr",
@@ -292,7 +292,7 @@ const ProductsModule = (() => {
         description: "Grinder elektrik performa tinggi untuk kafe profesional.",
         price: "Rp 8.900.000",
         category: "Professional",
-        image: "../assets/img/G174.png",
+        image: "assets/img/G174.png",
         specs: [
             "Tipe: Commercial Grinder",
             "Burr: Flat Burr",
@@ -306,7 +306,7 @@ const ProductsModule = (() => {
         description: "Grinder elektrik kompak dengan desain modern.",
         price: "Rp 3.290.000",
         category: "Electric",
-        image: "../assets/img/OX60.png",
+        image: "assets/img/OX60.png",
         specs: [
             "Tipe: Electric Grinder",
             "Desain: Modern",
@@ -320,7 +320,7 @@ const ProductsModule = (() => {
         description: "Grinder elektrik ekonomis dengan body kokoh.",
         price: "Rp 2.350.000",
         category: "Electric",
-        image: "../assets/img/DX60.png",
+        image: "assets/img/DX60.png",
         specs: [
             "Tipe: Electric Grinder",
             "Body: Kokoh",
@@ -334,7 +334,7 @@ const ProductsModule = (() => {
         description: "Grinder all-rounder premium dari Mahlkönig.",
         price: "Rp 11.500.000",
         category: "Professional",
-        image: "../assets/img/X54.png",
+        image: "assets/img/X54.png",
         specs: [
             "Tipe: Electric Burr Grinder",
             "Burr: Flat Burr Presisi",
