@@ -48,11 +48,71 @@
 }
 
 /* Better text contrast on mobile */
+/* Fix for section header text in dark mode */
+.dark-mode .section-header .text-muted {
+    color: #c0c0c0 !important;
+    font-weight: 500 !important;
+}
+
 @media (max-width: 576px) {
     .dark-mode .comparison-item .text-muted,
     .dark-mode .comparison-item .text-muted.small,
     .dark-mode .comparison-card .text-muted {
         color: #d0d0d0 !important;
         font-weight: 600 !important;
+    }
+}
+
+/* ============================================ */
+/* Product Images Improvements */
+/* ============================================ */
+
+/* Enhanced product image styling for dark mode */
+.dark-mode .product-card .product-image img {
+    background: linear-gradient(135deg, rgba(235, 168, 50, 0.05), rgba(235, 168, 50, 0.02));
+}
+
+/* Modal image enhancement for better preview */
+.product-modal-image img {
+    background: #ffffff;
+    border-radius: 8px;
+}
+
+.dark-mode .product-modal-image img {
+    background: linear-gradient(135deg, #2a2f3e 0%, #252a39 100%);
+    border-radius: 8px;
+}
+
+/* Better product card image shadow for depth */
+.product-card .product-image {
+    box-shadow: inset 0 0 0 1px rgba(235, 168, 50, 0.1);
+}
+
+.dark-mode .product-card .product-image {
+    box-shadow: inset 0 0 0 1px rgba(235, 168, 50, 0.15);
+}
+
+/* Mobile optimization for product images */
+@media (max-width: 768px) {
+    .product-image img {
+        padding: 8px;
+    }
+    
+    .product-modal-image img {
+        padding: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .product-image img {
+        padding: 6px;
+    }
+    
+    .product-modal-image {
+        border-radius: 10px;
+    }
+    
+    .product-modal-image img {
+        padding: 10px;
     }
 }

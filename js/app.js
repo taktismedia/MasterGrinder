@@ -20,7 +20,7 @@ const AppModule = (() => {
         state.filteredProducts = [...state.allProducts];
     };
 
-    const displayProducts = () => {
+    const displayProducts = (scrollToProducts = false) => {
         const startIndex = (state.currentPage - 1) * state.itemsPerPage;
         const endIndex = startIndex + state.itemsPerPage;
         const productsToDisplay = state.filteredProducts.slice(startIndex, endIndex);
@@ -28,7 +28,9 @@ const AppModule = (() => {
         UIModule.renderProducts(productsToDisplay);
         updatePagination();
         attachProductEventListeners();
-        UIModule.scrollToSection('products');
+        if (scrollToProducts) {
+            UIModule.scrollToSection('products');
+        }
     };
 
     const updatePagination = () => {
@@ -71,7 +73,7 @@ const AppModule = (() => {
 
                 if (page >= 1 && page <= totalPages) {
                     state.currentPage = page;
-                    displayProducts();
+                    displayProducts(true);
                 }
             });
         });
@@ -88,7 +90,7 @@ const AppModule = (() => {
                 : ProductsModule.search(query);
 
             state.currentPage = 1;
-            displayProducts();
+            displayProducts(true);
         }, Config.timing.searchDebounce);
 
         searchInput.addEventListener('keyup', handleSearch);
@@ -218,7 +220,7 @@ const AppModule = (() => {
                     // Semua - show all products
                     state.filteredProducts = [...state.allProducts];
                     state.currentPage = 1;
-                    displayProducts();
+                    displayProducts(true);
                     return;
                 }
 
@@ -226,7 +228,7 @@ const AppModule = (() => {
                 if (category) {
                     state.filteredProducts = ProductsModule.filterByCategory(category);
                     state.currentPage = 1;
-                    displayProducts();
+                    displayProducts(true);
                 }
             });
         });

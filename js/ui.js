@@ -10,8 +10,8 @@ const UIModule = (() => {
         col.className = 'col-lg-4 col-md-6 col-sm-12';
         col.innerHTML = `
             <div class="card product-card" data-product-id="${product.id}">
-                <div class="product-image">
-                    <img src="${product.image}" alt="${product.name}" loading="lazy">
+                <div class="product-image" id="product-image-${product.id}">
+                    <img src="${product.image}" alt="${product.name}" loading="lazy" onerror="this.src='https://via.placeholder.com/500x500?text=Product+Image&bg=f5f5f5&fg=eba832'">
                 </div>
                 <div class="product-body">
                     <h5 class="product-title">${product.name}</h5>
@@ -137,6 +137,13 @@ const UIModule = (() => {
             const section = document.getElementById(sectionId);
             if (section) {
                 section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        },
+
+        handleImageError: (imgElement) => {
+            // Set placeholder image if original fails to load
+            if (!imgElement.src.includes('placeholder')) {
+                imgElement.src = 'https://via.placeholder.com/500x500?text=Product+Image&bg=f5f5f5&fg=eba832';
             }
         }
     };
