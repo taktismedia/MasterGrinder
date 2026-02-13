@@ -106,34 +106,6 @@ const ProductsModule = (() => {
     },
     {
         id: 8,
-        name: "Manusso Evo Pro",
-        description: "Grinder modern dengan performa stabil dan harga kompetitif.",
-        price: "Rp 4.699.000",
-        category: "Electric",
-        image: "assets/img/manussoEvo.png",
-        specs: [
-            "Tipe: Manual Grinder",
-            "Pengaturan Gilingan: Multi-level",
-            "Desain: Modern",
-            "Cocok: Home & Cafe Kecil"
-        ]
-    },
-    {
-        id: 9,
-        name: "Manusso Evo Black",
-        description: "Grinder elektrik ekonomis dengan desain minimalis.",
-        price: "Rp 3.499.000",
-        category: "Electric",
-        image: "assets/img/manussoEvo.png",
-        specs: [
-            "Tipe: Manual Grinder",
-            "Desain: Minimalis",
-            "Hasil: Stabil",
-            "Cocok: Home Use"
-        ]
-    },
-    {
-        id: 10,
         name: "Kuis 021 Black",
         description: "Grinder elektrik ringkas dengan burr presisi untuk pemula.",
         price: "Rp 2.090.000",
@@ -147,7 +119,7 @@ const ProductsModule = (() => {
         ]
     },
     {
-        id: 11,
+        id: 9,
         name: "Kuis 019 Black",
         description: "Grinder elektrik entry level dengan pengoperasian sederhana.",
         price: "Rp 1.400.000",
@@ -161,7 +133,7 @@ const ProductsModule = (() => {
         ]
     },
     {
-        id: 12,
+        id: 10,
         name: "Kuis 500N",
         description: "Grinder elektrik populer untuk kafe kecil.",
         price: "Rp 1.200.000",
@@ -175,7 +147,7 @@ const ProductsModule = (() => {
         ]
     },
     {
-        id: 13,
+        id: 11,
         name: "Kuis X016",
         description: "Grinder elektrik modern untuk home dan UMKM.",
         price: "Rp 2.300.000",
@@ -189,7 +161,7 @@ const ProductsModule = (() => {
         ]
     },
     {
-        id: 14,
+        id: 12,
         name: "One Two Cup 600N",
         description: "Grinder elektrik ekonomis untuk espresso dan kafe kecil.",
         price: "Rp 531.200",
@@ -203,7 +175,7 @@ const ProductsModule = (() => {
         ]
     },
     {
-        id: 15,
+        id: 13,
         name: "Maquinos E75T",
         description: "Grinder elektrik performa tinggi untuk espresso bar.",
         price: "Rp 9.390.000",
@@ -217,7 +189,7 @@ const ProductsModule = (() => {
         ]
     },
     {
-        id: 16,
+        id: 14,
         name: "Maquinos E65T",
         description: "Grinder elektrik serbaguna dengan ukuran ringkas.",
         price: "Rp 7.375.000",
@@ -231,7 +203,7 @@ const ProductsModule = (() => {
         ]
     },
     {
-        id: 17,
+        id: 15,
         name: "Hario EVCG 8B",
         description: "Grinder elektrik Hario dengan desain minimalis Jepang.",
         price: "Rp 3.990.000",
@@ -245,7 +217,7 @@ const ProductsModule = (() => {
         ]
     },
     {
-        id: 18,
+        id: 16,
         name: "Romola G9022",
         description: "Grinder elektrik profesional Romola.",
         price: "Rp 7.000.000",
@@ -259,7 +231,7 @@ const ProductsModule = (() => {
         ]
     },
     {
-        id: 19,
+        id: 17,
         name: "Romola G9012",
         description: "Grinder elektrik ekonomis untuk UMKM.",
         price: "Rp 4.300.000",
@@ -273,7 +245,7 @@ const ProductsModule = (() => {
         ]
     },
     {
-        id: 20,
+        id: 18,
         name: "Romola Amalfi M70",
         description: "Grinder elektrik kelas menengah untuk espresso.",
         price: "Rp 6.600.000",
@@ -287,7 +259,7 @@ const ProductsModule = (() => {
         ]
     },
     {
-        id: 21,
+        id: 19,
         name: "Romola GI74",
         description: "Grinder elektrik performa tinggi untuk kafe profesional.",
         price: "Rp 8.900.000",
@@ -301,7 +273,7 @@ const ProductsModule = (() => {
         ]
     },
     {
-        id: 22,
+        id: 20,
         name: "Latina Vega OX60-E",
         description: "Grinder elektrik kompak dengan desain modern.",
         price: "Rp 3.290.000",
@@ -315,7 +287,7 @@ const ProductsModule = (() => {
         ]
     },
     {
-        id: 23,
+        id: 21,
         name: "Latina DX60-M2 Elefante",
         description: "Grinder elektrik ekonomis dengan body kokoh.",
         price: "Rp 2.350.000",
@@ -329,7 +301,7 @@ const ProductsModule = (() => {
         ]
     },
     {
-        id: 24,
+        id: 22,
         name: "Mahlkönig X54",
         description: "Grinder all-rounder premium dari Mahlkönig.",
         price: "Rp 11.500.000",
